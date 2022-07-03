@@ -9,7 +9,6 @@ License: Boost
 URL: https://github.com/mpark/variant
 Source0: https://github.com/mpark/variant/archive/v%{version}/variant-%{version}.tar.gz
  
-BuildRequires: ninja
 BuildRequires: cmake
  
 %description
@@ -28,7 +27,6 @@ sed -i 's@lib/@%{_libdir}/@g' CMakeLists.txt
  
 %build
 %cmake \
-        -G Ninja \
         -DCMAKE_BUILD_TYPE=Release
 
 %make_build
