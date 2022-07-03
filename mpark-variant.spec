@@ -7,7 +7,7 @@ Release: 1
 Group:   System/Libraries
 License: Boost
 URL: https://github.com/mpark/variant
-Source0: https://github.com/mpark/variant/archive/v%{version}/%{name}-%{version}.tar.gz
+Source0: https://github.com/mpark/variant/archive/v%{version}/variant-%{version}.tar.gz
  
 BuildRequires: ninja
 BuildRequires: cmake
