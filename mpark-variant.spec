@@ -3,7 +3,7 @@
 Name: mpark-variant
 Summary: C++17 std::variant for C++11/14/17
 Version: 1.4.0
-Release: 1
+Release: 2
 Group:   System/Libraries
 License: Boost
 URL: https://github.com/mpark/variant
